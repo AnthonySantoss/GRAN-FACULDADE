@@ -211,7 +211,7 @@ footer{
 
 /*Para celular*/
 
-@media (min-width: 413px) and (max-width: 720px){
+@media (min-width: 320px) and (max-width: 720px){
 
 
     .logo {
