@@ -61,6 +61,10 @@ footer{
   color: white;
 }
 
+.botao_cursos{
+    display: none;
+}
+
 .texto_apresentacao{
     font-family: "Montserrat", sans-serif;
     display: flex;
@@ -120,7 +124,11 @@ footer{
       background-color: #FE9000; /* Cor do botão quando o mouse passa por cima */
       color: white;
     }
-    
+
+    .botao_cursos{
+        display: none;
+    }
+
     .texto_apresentacao{
         font-family: "Montserrat", sans-serif;
         display: flex;
@@ -175,6 +183,10 @@ footer{
     .lista_cursos:hover {
       background-color: #FE9000; /* Cor do botão quando o mouse passa por cima */
       color: white;
+    }
+
+    .botao_cursos{
+        display: none;
     }
 
     .personagem{
@@ -277,7 +289,7 @@ footer{
       }
 
     footer{
-        margin-top: 10%;
+        margin-top: 20%;
     }
 }
 
