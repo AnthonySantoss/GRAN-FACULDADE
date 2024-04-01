@@ -253,8 +253,8 @@ footer{
         font-size: 14px;
         font-weight: 800;
         color: #FE9000;
-        top: 90%;
-        right: 19%;
+        top: 80%;
+        right: 24%;
         transition-duration: 0.2s; /* Duração da transição */
         cursor: pointer;
     }
