@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+   align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #FE9000;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.nome_page{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+}
+.Academy{
+    color: #3C6997;
+}
+
+.lista_cursos{
+    width: 250px;
+    height: 40px;
+    border: 3px solid #FE9000;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #FE9000;
+    margin-left: 58%;
+}
+
+.box-area-cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.box-direitos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: left;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.box-tutorial{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.tutorial{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.botao-avaliacao{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    display: flex;
+    width: 1520px;
+    height: 40px;
+    border-start-start-radius: 22px;
+    border-start-end-radius: 22px;
+    background-color: #FE9000;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+span{
+    font-weight: 600;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 10px;
+}
+
+iframe {
+    width:700px; 
+    height:350px;
+}
+
+@media (min-width: 1320px) and (max-width: 1450px){
+
+    .lista_cursos{
+        width: 250px;
+        height: 40px;
+        border: 3px solid #FE9000;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        color: #FE9000;
+        margin-left: 55%;
+    }
+    
+}
+
+/*Para tablet*/
+
+@media (min-width: 744px ) and (max-width: 1281px){
+
+    .lista_cursos{
+        width: 250px;
+        height: 40px;
+        border: 3px solid #FE9000;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        color: #FE9000;
+        margin-left: 50%;
+        }
+
+    }
+/*Para celular*/
+    @media (min-width: 414px) and (max-width: 720px){
+        
+    body{
+        height: 322vh;
+    }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+        }
+        
+        .nome_page{
+            font-family: "Montserrat", sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            display: flex;
+        }
+
+        .box-direitos{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            text-align: left;
+            align-items: center;
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+        }
+
+      
+        .box-tutorial{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-content: center;
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            margin-top: 4%;
+            margin-right: 8%;
+            margin-bottom: 10%;
+        }
+
+        .botao{
+            display: flex;
+            width: auto;
+            height: 40px;
+            border-start-start-radius: 22px;
+            border-start-end-radius: 22px;
+            background-color: #FE9000;
+            justify-content: center;
+            margin-top: 2%;
+        }
+
+        .lista_cursos{
+            display: none;
+        }
+
+        iframe {
+            width:400px; 
+            height:250px;
+        }
+
+    }

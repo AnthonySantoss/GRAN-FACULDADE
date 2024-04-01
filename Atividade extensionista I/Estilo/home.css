@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+   align-items: center;
+}
+body{
+    height: 100vh;
+}
+
+
+
+footer{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(143, 143, 143, 0.756);
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.nome_page{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+}
+
+.Academy{
+    color: #3C6997;
+}
+
+.lista_cursos{
+    width: 250px;
+    height: 40px;
+    border: 3px solid #FE9000;
+    border-radius: 30px;
+    color: #FE9000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    margin-left: 58%;
+    transition-duration: 0.4s; /* Duração da transição */
+    cursor: pointer;
+}
+
+.lista_cursos:hover {
+  background-color: #FE9000; /* Cor do botão quando o mouse passa por cima */
+  color: white;
+}
+
+.texto_apresentacao{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    gap: 50px;
+    padding-top: 4%;
+}
+
+.titulo{
+    font-size: 67px;
+    text-align: left;
+}
+
+.texto{
+    font-size: 24px;
+    text-align: left;
+}
+
+.titulo-cor{
+    color: #FFDD4A;
+}
+
+.personagem{
+    width: 589px;
+    height: 839px;
+}
+
+.apresentacao_home {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+
+@media (min-width: 1320px) and (max-width: 1450px) {
+   
+    .lista_cursos{
+        width: 250px;
+        height: 40px;
+        border: 3px solid #FE9000;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        color: #FE9000;
+        margin-left: 55%;
+        transition-duration: 0.4s; /* Duração da transição */
+        cursor: pointer;
+    }
+    
+    .lista_cursos:hover {
+      background-color: #FE9000; /* Cor do botão quando o mouse passa por cima */
+      color: white;
+    }
+    
+    .texto_apresentacao{
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+        gap: 50px;
+        padding-top: 4%;
+    }
+    
+    .titulo{
+        font-size: 67px;
+        text-align: left;
+    }
+    
+    .texto{
+        font-size: 24px;
+        text-align: left;
+    }
+    
+    .titulo-cor{
+        color: #FFDD4A;
+    }
+    
+    .personagem{
+        width: 589px;
+        height: 800px;
+    }
+
+}
+
+
+
+@media (min-width: 744px ) and (max-width: 1319px){
+    .lista_cursos{
+        width: 250px;
+        height: 40px;
+        border: 3px solid #FE9000;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        color: #FE9000;
+        margin-left: 50%;
+        transition-duration: 0.4s; /* Duração da transição */
+        cursor: pointer;
+    }
+    
+    .lista_cursos:hover {
+      background-color: #FE9000; /* Cor do botão quando o mouse passa por cima */
+      color: white;
+    }
+
+    .personagem{
+        width: 550px;
+        height: 750px;
+    }
+
+    .titulo{
+        font-size: 60px;
+        text-align: left;
+    }
+    
+    .texto{
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    .lista {
+        display: none;
+    }
+}
+
+/*Para celular*/
+
+@media (min-width: 414px) and (max-width: 720px){
+
+
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .nome_page{
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        display: flex;
+    }
+
+    .titulo{
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .texto{
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .lista_cursos {
+        display: none;
+    }
+
+    .personagem{
+        display: none;
+    }
+
+    .texto_apresentacao{
+        font-family: "Montserrat", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4%;
+        gap: 20px;
+        padding-top: 4%;
+    }
+
+    .lista_cursos{
+        width: 250px;
+        height: 40px;
+        border: 3px solid #FE9000;
+        border-radius: 30px;
+        position: absolute;
+        display: flex;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        color: #FE9000;
+        top: 60%;
+        right: 19%;
+        transition-duration: 0.2s; /* Duração da transição */
+        cursor: pointer;
+    }
+    
+    .lista_cursos:hover {
+      background-color: #FE9000; /* Cor do botão quando o mouse passa por cima */
+      color: white;
+    }
+
+    footer{
+        margin-top: 25%;
+    }
+}
