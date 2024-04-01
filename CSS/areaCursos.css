@@ -162,10 +162,6 @@ iframe {
     }
 /*Para celular*/
     @media (min-width: 414px) and (max-width: 720px){
-        
-    body{
-        height: 322vh;
-    }
 
         .logo {
             width: 80px;
