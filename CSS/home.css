@@ -271,22 +271,14 @@ footer{
         font-family: "Montserrat", sans-serif;
         font-size: 14px;
         font-weight: 800;
-        text-decoration: none;
+        color: #FE9000;
         transition-duration: 0.4s; /* Duração da transição */
         cursor: pointer;
     }
-
-    a{
-        text-decoration: none;
-        color: #FE9000;
-    }
-
-   a:houver{
-    color: white;
-   }
     .botao_cursos:hover {
         background-color: #FE9000; /* Cor do botão quando o mouse passa por cima */
-      }
+        color: white;
+    }
 
     footer{
         margin-top: 20%;
