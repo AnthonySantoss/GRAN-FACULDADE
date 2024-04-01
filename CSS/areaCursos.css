@@ -221,3 +221,64 @@ iframe {
         }
 
     }
+
+    @media (min-width: 250px) and (max-width: 720px){
+
+        .logo {
+            width: 80px;
+            height: 80px;
+        }
+        
+        .nome_page{
+            font-family: "Montserrat", sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            display: flex;
+        }
+
+        .box-direitos{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            text-align: left;
+            align-items: center;
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+        }
+
+      
+        .box-tutorial{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-content: center;
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            margin-top: 4%;
+            margin-right: 8%;
+            margin-bottom: 10%;
+        }
+
+        .botao{
+            display: flex;
+            width: auto;
+            height: 40px;
+            border-start-start-radius: 22px;
+            border-start-end-radius: 22px;
+            background-color: #FE9000;
+            justify-content: center;
+            margin-top: 2%;
+        }
+
+        .lista_cursos{
+            display: none;
+        }
+
+        iframe {
+            width:300px; 
+            height:250px;
+        }
+
+    }
