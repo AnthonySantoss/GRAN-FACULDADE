@@ -243,100 +243,41 @@ footer{
     }
 
     .lista_cursos{
+        display: none;
+    }
+    .botao_cursos{
         width: 250px;
         height: 40px;
-        border: 3px solid #FE9000;
+        border: 1px solid #FE9000;
         border-radius: 30px;
-        position: absolute;
+        margin-left: 83px;
+        margin-top: 20px;
         display: flex;
-        font-family: "Montserrat", sans-serif;
-        font-size: 14px;
-        font-weight: 800;
-        color: #FE9000;
-        top: 80%;
-        right: 19%;
-        transition-duration: 0.2s; /* Duração da transição */
-        cursor: pointer;
-    }
-    
-    .lista_cursos:hover {
-      background-color: #FE9000; /* Cor do botão quando o mouse passa por cima */
-      color: white;
-    }
-
-    footer{
-        margin-top: 40%;
-    }
-}
-
-/*Para celular*/
-
-@media (min-width: 250px) and (max-width: 413px){
-
-
-    .logo {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .nome_page{
-        font-family: "Montserrat", sans-serif;
-        font-size: 12px;
-        font-weight: 400;
-        display: flex;
-    }
-
-    .titulo{
-        font-size: 40px;
-        text-align: left;
-    }
-
-    .texto{
-        font-size: 18px;
-        text-align: left;
-    }
-
-    .lista_cursos {
-        display: none;
-    }
-
-    .personagem{
-        display: none;
-    }
-
-    .texto_apresentacao{
-        font-family: "Montserrat", sans-serif;
-        display: flex;
-        flex-direction: column;
         align-items: center;
-        padding: 4%;
-        gap: 20px;
-        padding-top: 4%;
-    }
-
-    .lista_cursos{
-        width: 250px;
-        height: 40px;
-        border: 3px solid #FE9000;
-        border-radius: 30px;
-        position: absolute;
-        display: flex;
+        justify-content: center;
+        text-decoration: none;
         font-family: "Montserrat", sans-serif;
         font-size: 14px;
         font-weight: 800;
-        color: #FE9000;
-        top: 90%;
-        right: 10%;
-        transition-duration: 0.2s; /* Duração da transição */
+        text-decoration: none;
+        transition-duration: 0.4s; /* Duração da transição */
         cursor: pointer;
     }
-    
-    .lista_cursos:hover {
-      background-color: #FE9000; /* Cor do botão quando o mouse passa por cima */
-      color: white;
+
+    a{
+        text-decoration: none;
+        color: #FE9000;
     }
 
+   a:houver{
+    color: white;
+   }
+    .botao_cursos:hover {
+        background-color: #FE9000; /* Cor do botão quando o mouse passa por cima */
+      }
+
     footer{
-        margin-top: 40%;
+        margin-top: 10%;
     }
 }
+
